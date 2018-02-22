@@ -4,8 +4,8 @@ test_that("convert session info to data.frame", {
 
   info <- sessionInfo()
 
-  expect_length(
-    modify_sessioninfo(first_info),
+  expect_gte(
+    length(modify_sessioninfo(first_info)),
     16L
   )
   expect_gte(
