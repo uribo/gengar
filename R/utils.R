@@ -28,7 +28,7 @@ session_pkgs_to_df <- function(info, include_base = TRUE, ...) {
   info_chr <- modify_sessioninfo(info)
   xxx <- salvage_pkgs_elements(info)
 
-  df_pkg_base <- info_chr[(xxx[1] + 1):(xxx[1 + 1] - 2)] %>%
+  df_pkg_base <- info_chr[(xxx[1] + 1):(xxx[2] - 1)] %>%
     parse_pkg_version()
   df_pkg_base$base <- TRUE
   df_pkg_base$required <- FALSE
@@ -38,7 +38,7 @@ session_pkgs_to_df <- function(info, include_base = TRUE, ...) {
       parse_pkg_version()
     df_pkgs_others$required <- FALSE
   } else {
-    df_pkgs_attached <- info_chr[(xxx[2] + 1):(xxx[2 + 1] - 2)] %>%
+    df_pkgs_attached <- info_chr[(xxx[2] + 1):(xxx[3] - 1)] %>%
       parse_pkg_version()
     df_pkgs_attached$required <- TRUE
 
