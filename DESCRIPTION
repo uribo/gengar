@@ -17,6 +17,7 @@ Imports:
     purrr,
     rematch2 (>= 2.0.1),
     rlang (>= 0.2.0),
+    tibble,
     utils
 Suggests: 
     devtools,
