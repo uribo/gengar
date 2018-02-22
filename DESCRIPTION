@@ -2,10 +2,17 @@ Package: gengar
 Version: 0.0.0.9000
 Title: What the Package Does (one line, title case)
 Description: What the package does (one paragraph).
-Authors@R: person("First", "Last", , "first.last@example.com", c("aut", "cre"))
-License: What license it uses
+Authors@R: c(
+    person("Shinya", "Uryu", , email = "suika1127@gmail.com", role  = c("aut", "cre"), comment = c(ORCID = "0000-0002-0493-6186"))
+    )
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 ByteCompile: true
 URL: https://github.com/uribo/gengar
 BugReports: https://github.com/uribo/gengar/issues
+Suggests: 
+    testthat,
+    covr
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 6.0.1

@@ -1,2 +1,12 @@
 ^gengar\.Rproj$
 ^\.Rproj\.user$
+^data-raw$
+^README\.Rmd$
+^Dockerfile$
+^docker-compose\.yml$
+^config\.yml$
+^\.Rprofile$
+^\.travis\.yml$
+^codecov\.yml$
+^appveyor\.yml$
+^LICENSE\.md$
