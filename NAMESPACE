@@ -2,4 +2,7 @@
 
 export("%>%")
 export(is_sessioninfo)
+export(session_include_pkgs_df)
+export(session_pkgs)
 importFrom(magrittr,"%>%")
+importFrom(utils,capture.output)

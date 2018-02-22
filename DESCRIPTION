@@ -12,8 +12,14 @@ ByteCompile: true
 URL: https://github.com/uribo/gengar
 BugReports: https://github.com/uribo/gengar/issues
 Imports: 
-    magrittr
+    sessioninfo (>= 1.0.0),
+    magrittr,
+    purrr,
+    rematch2 (>= 2.0.1),
+    rlang (>= 0.2.0),
+    utils
 Suggests: 
+    devtools,
     testthat,
     covr
 Roxygen: list(markdown = TRUE)
