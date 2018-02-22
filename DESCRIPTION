@@ -11,6 +11,8 @@ LazyData: true
 ByteCompile: true
 URL: https://github.com/uribo/gengar
 BugReports: https://github.com/uribo/gengar/issues
+Imports: 
+    magrittr
 Suggests: 
     testthat,
     covr
