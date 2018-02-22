@@ -11,6 +11,8 @@ LazyData: true
 ByteCompile: true
 URL: https://github.com/uribo/gengar
 BugReports: https://github.com/uribo/gengar/issues
+Depends:
+  R (>= 2.10)
 Imports: 
     sessioninfo (>= 1.0.0),
     magrittr,
